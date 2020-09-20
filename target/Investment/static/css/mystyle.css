@@ -1,0 +1,60 @@
+
+.grzx {
+	margin-right: 40px;
+}
+
+.count{
+	margin-top: 10px;
+}
+.beizu {
+	font-size: 12px;
+	line-height: 7px;
+	color: red;
+}
+
+.articalname{
+	margin-top: 10px;
+}
+.kind{
+	margin-top: 10px;
+}
+.time{
+	margin-top: 10px;
+}
+
+.zhushi{
+	margin-bottom: 20px;
+}
+
+.zhushi>span{
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+.tjtitle{
+	color: black;
+	font-weight: bold;
+}
+.xmgulibtn{
+	margin-top: 20px;
+}
+.xmgltable{
+	margin-top: 56px;
+}
+.xmglspan{
+	margin-top: 30px;
+}
+.xmglul{
+	color: black;
+}
+.axma{
+	margin-top: 10px;
+}
+
+.axminput{
+	margin-top: 30px;
+}
+
+body{
+	color: black;
+}
