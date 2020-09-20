@@ -9,7 +9,6 @@ import com.ltyl.investment.service.TAreaService;
 import com.ltyl.investment.service.UserService;
 import com.ltyl.investment.service.WorkerService;
 import com.ltyl.investment.utils.ExcelUtils;
-import com.sun.media.jfxmedia.logging.Logger;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,16 +17,13 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.jsp.tagext.PageData;
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
-import java.sql.Array;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
