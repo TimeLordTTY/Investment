@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ltyl.investment.mapper.BusinessMapper">
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ltyl.investment.beans.Business">
+        <id column="id" property="id" />
+        <result column="merchant_name" property="merchantName" />
+        <result column="business_name" property="businessName" />
+        <result column="registered_capital" property="registeredCapital" />
+        <result column="create_date" property="createDate" />
+        <result column="working_field" property="workingField" />
+        <result column="legal_representative" property="legalRepresentative" />
+        <result column="email" property="email" />
+        <result column="manage_status" property="manageStatus" />
+        <result column="main_contact_person_id" property="mainContactPersonId" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="area" property="area" />
+        <result column="detail_adress" property="detailAdress" />
+        <result column="note" property="note" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, merchant_name, business_name, registered_capital, create_date, working_field, legal_representative, email, manage_status, main_contact_person_id, province, city, area, detail_adress, note
+    </sql>
+
+</mapper>

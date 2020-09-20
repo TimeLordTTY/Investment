@@ -1,0 +1,24 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ltyl.investment.mapper.VisitRecordMapper">
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ltyl.investment.beans.VisitRecord">
+        <id column="id" property="id" />
+        <result column="merchant_name" property="merchantName" />
+        <result column="visit_time" property="visitTime" />
+        <result column="contact_person_id" property="contactPersonId" />
+        <result column="theme" property="theme" />
+        <result column="way" property="way" />
+        <result column="counterparty" property="counterparty" />
+        <result column="our_participants" property="ourParticipants" />
+        <result column="content" property="content" />
+        <result column="accessory_adress" property="accessoryAdress" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, merchant_name, visit_time, contact_person_id, theme, way, counterparty, our_participants, content, accessory_adress
+    </sql>
+
+</mapper>

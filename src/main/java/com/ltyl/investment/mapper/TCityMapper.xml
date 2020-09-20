@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ltyl.investment.mapper.TCityMapper">
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ltyl.investment.beans.TCity">
+        <id column="id" property="id" />
+        <result column="city_id" property="cityId" />
+        <result column="city" property="city" />
+        <result column="father" property="father" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, city_id, city, father
+    </sql>
+
+</mapper>

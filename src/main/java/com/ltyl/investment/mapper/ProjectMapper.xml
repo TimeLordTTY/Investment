@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ltyl.investment.mapper.ProjectMapper">
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ltyl.investment.beans.Project">
+        <id column="id" property="id" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="xian" property="xian" />
+        <result column="area" property="area" />
+        <result column="worker_id" property="workerId" />
+        <result column="project_name" property="projectName" />
+        <result column="investor_business" property="investorBusiness" />
+        <result column="investment_money" property="investmentMoney" />
+        <result column="arrive_money" property="arriveMoney" />
+        <result column="check_arrive_money" property="checkArriveMoney" />
+        <result column="project_type" property="projectType" />
+        <result column="product_first" property="productFirst" />
+        <result column="product_second" property="productSecond" />
+        <result column="product_note" property="productNote" />
+        <result column="invest_content" property="investContent" />
+        <result column="policy_demands" property="policyDemands" />
+        <result column="project_note" property="projectNote" />
+        <result column="append_file" property="appendFile" />
+        <result column="proposed_signing_time" property="proposedSigningTime" />
+        <result column="project_status_id" property="projectStatusId" />
+        <result column="update_time" property="updateTime" />
+        <result column="follow_persono_id" property="followPersonoId" />
+        <result column="period" property="period" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, province, city, xian, area, worker_id, project_name, investor_business, investment_money, arrive_money, check_arrive_money, project_type, product_first, product_second, product_note, invest_content, policy_demands, project_note, append_file, proposed_signing_time, project_status_id, update_time, follow_persono_id, period
+    </sql>
+
+</mapper>

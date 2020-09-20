@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ltyl.investment.mapper.ContactPersonMapper">
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ltyl.investment.beans.ContactPerson">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="phone" property="phone" />
+        <result column="position" property="position" />
+        <result column="fax" property="fax" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="area" property="area" />
+        <result column="xian" property="xian" />
+        <result column="detail_adress" property="detailAdress" />
+        <result column="postal_code" property="postalCode" />
+        <result column="note" property="note" />
+        <result column="secret" property="secret" />
+        <result column="business_id" property="businessId" />
+        <result column="importance" property="importance" />
+        <result column="interview" property="interview" />
+        <result column="worker_id" property="workerId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, phone, position, fax, province, city, area, xian, detail_adress, postal_code, note, secret, business_id, importance, interview, worker_id
+    </sql>
+
+</mapper>
